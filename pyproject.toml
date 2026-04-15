@@ -1,0 +1,20 @@
+[project]
+name = "flaskproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "celery>=5.5.3",
+    "fastapi>=0.120.0",
+    "httpx>=0.28.1",
+    "psycopg2-binary>=2.9.11",
+    "pydantic-settings>=2.11.0",
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "python-dotenv>=1.2.1",
+    "redis>=7.0.1",
+    "requests>=2.32.5",
+    "uvicorn>=0.38.0",
+]
